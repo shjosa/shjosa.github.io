@@ -21,6 +21,19 @@ body {
     height:100vh;
 }
 
+div.box {
+    border-radius: 25px;
+    background: black;
+    opacity: 0.5;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
 ul {
     padding: 0;
 }
